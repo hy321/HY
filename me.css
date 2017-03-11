@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+body，h1{
+    margin: 0px;
+    padding: 0px;
+}
+/*导航上*/
+.dingbu{
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+}
+nav .daohangtop{
+    padding: 0px;
+    /*background-color: #FF6B01;*/
+    text-align: center;
+    margin: 15px 0px;
+}
+nav .daohangtop img:nth-child(1){
+    width:6%;
+    height: 5%;
+    margin-left: 18px;
+    float: left;
+    overflow: hidden;
+}
+nav .daohangtop span:nth-child(3){
+    line-height: 22px;
+    margin-right: 18px;
+    float: right;
+    overflow: hidden;
+}
+nav .daohangtop img:nth-child(2){
+    width: 70%;
+    height: 5%;
+}
+/*主要内容*/
+main{
+    height: 100%;
+    background-color: #F5F5F5;
+}
+main .top{
+    border: 1px solid #FF6B01;
+    margin-top: 50px;
+    width: 100%;
+    height: 20%;
+    background-color: #FF6B01;
+    text-align: center;
+}
+main .top span{
+    color: white;
+    position: relative;
+    top: 23%;
+}
+main .zhong{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+main .zhong div{
+    margin: 45px 0px;
+}
+main .zhong .glyphicon{
+    padding-left: 16px;
+}
+main .zhong div .one{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #C6181A;
+}
+main .zhong div .two{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #137218;
+}
+main .zhong div .san{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E5A635;
+}
+main .button{
+    height: 8%;
+    border: 1px solid #F5F5F5;
+    color: #65685F;
+     background-color: #FFFFFF;
+}
+main .buttonOne{
+    height: 8%;
+    border: 1px solid #FFFFFF;
+    margin: 10px 0px;
+    color: #65685F;
+     background-color: #FFFFFF;
+}
+main .buttonTwo{
+    height: 8%;
+    color: #65685F;
+    border: 1px solid #FFFFFF;
+     background-color: #FFFFFF;
+}
+main .gao span{
+    padding: 0px 5px;
+}
+main .gao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*导航下*/
+footer .bottomdaohang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*justify-content: center;*/
+}
+footer .bottomdaohang{
+    height: 50px;
+    border: 1px solid lightgrey;
+}
+footer .bottomdaohang a{
+    width: 20%;
+    height: 100%;
+    padding: 3px 0;
+    text-align: center;
+
+
+}
+footer .bottomdaohang a i{
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+    background-image: url(image/mimall/spr1.png);
+    background-size: 50%;
+    /*background-position: 3px 38px;*/
+    background-repeat: repeat-y;
+}
+footer .bottomdaohang a .one{
+    background-position: 10px 18px;
+}
+footer .bottomdaohang a .two{
+     background-position: 10px 18px;
+}
+footer .bottomdaohang a .three{
+     background-position: 10px 98px;
+}
+footer .bottomdaohang a .four{
+     background-position: 10px 38px;
+}
+footer .bottomdaohang a span{
+    line-height: 15px;
+    font-size: 14px;
+    color: #606B65;
+}
+
+main .yuan p{
+    display: inline-block;
+    width: 80%;
+    height: 50%;
+    background-color: #FBCF48;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .yuan p span{
+    color: #F2FFFF;
+}
+main .yuan{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 24%;
+    left: 41%;
+}

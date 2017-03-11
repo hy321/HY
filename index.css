@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body,h2{
+    margin: 0px;
+    padding: 0px;
+}
+/*nav{
+    width: 70%;
+    height: 20px;
+}*/
+nav .daohangtop{
+    padding: 0px;
+    /*background-color: #FF6B01;*/
+    text-align: center;
+}
+nav .daohangtop img:nth-child(1){
+    width:6%;
+    height: 5%;
+    margin-right: 18px;
+}
+nav .daohangtop img:nth-child(3){
+    width:5%;
+    height: 5%;
+    margin-left: 18px;
+}
+nav .daohangtop img:nth-child(2){
+    width: 70%;
+    height: 5%;
+}
+#carousel-example-generic{
+    padding-top: 10px;
+}
+/*主要*/
+main .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main .top img{
+    border: 1px solid gainsboro;
+    margin: 5px;
+}
+main .bottom{
+     margin-top: 10px;
+     position: relative;
+}
+main .bottom div{
+    width: 100%;
+    height: 25%;
+    border: 1px solid gainsboro;  
+    
+}
+main .bottom div img{
+    width: 45%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+main .bottom div h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+main .bottom div span:nth-of-type(1){
+    font-size: 1rem;
+    color: #979797;
+}
+main .bottom div span:nth-of-type(2){
+    color: red;
+}
+main .bottom div .hot{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 12%;
+}
+main .bottom div div{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid white;
+    float: right;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/*底部*/
+footer .bottomdaohang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*justify-content: center;*/
+}
+footer .bottomdaohang{
+    height: 50px;
+    border: 1px solid lightgrey;
+}
+footer .bottomdaohang a{
+    width: 20%;
+    height: 50px;
+    padding: 3px 0;
+    text-align: center;
+
+
+}
+footer .bottomdaohang a i{
+    display: inline-block;
+    width:40px;
+    height: 20px;
+    background-image: url(image/mimall/spr1.png);
+    background-size: 50%;
+    /*background-position: 3px 38px;*/
+    background-repeat: no-repeat;
+}
+footer .bottomdaohang a .one{
+    background-position: 10px -120px;
+}
+footer .bottomdaohang a .two{
+     background-position: 10px -20px;
+}
+footer .bottomdaohang a .three{
+     background-position: 10px -59px;
+}
+footer .bottomdaohang a .four{
+     background-position: 10px -99px;
+}
+footer .bottomdaohang a span{
+    line-height: 15px;
+    font-size: 14px;
+    color: #606B65;
+
+}

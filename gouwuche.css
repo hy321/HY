@@ -1,0 +1,154 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+body,h2,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+/*头部*/
+nav{
+    background-color: #F37D0F;
+}
+nav .container-fluid{
+    text-align: center;
+    padding: 0px;
+    padding-top: 5%;
+}
+nav .container-fluid span{
+    color: white;
+}
+.toubu{
+    margin-top: 50px;
+    height: 10%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.toubu span{
+    color: #B7B7B7;
+}
+.toubu button{
+    background-color: #FFFFFF;
+    border: none;
+    border: 1px solid #F2F2F2;
+}
+.toubu img{
+    width: 15%;
+    margin-top: -5px;
+}
+.caicai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caicai span{
+    font-weight: bold;
+}
+.caicai hr{
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    border-color: #E2E2E2;
+}
+.zhuyao{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.zhuyao div{
+    width: 50%;
+    margin-top: 15px;
+}
+.zhuyao div span{
+    color: #5C5C5C;
+}
+.zhuyao div p{
+    color: #EF6916;
+}
+.zhuyao div img{
+    width: 100%;
+    height: 70%;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+footer .container-fluid{
+    height: 100%;
+}
+footer li{
+    width: 25%;
+    height: 80%;
+    list-style: none;
+    /*float: left;*/
+    text-align: center;
+    
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+}
+footer ul i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(image/mimall/spr1.png);
+    background-size: 100%;
+}
+footer ul .one{
+    
+    background-position: 0px -126px;
+}
+footer ul .two{
+    
+    background-position: 0px -18px;
+}
+footer ul .three{
+    
+    background-position: 0px -36px;
+}
+footer ul .four{
+    
+    background-position: 0px -91px;
+}
